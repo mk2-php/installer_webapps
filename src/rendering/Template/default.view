@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<html>
+<link rel="stylesheet" href="<?php echo $this->Response->url("css/bootstrap.css"); ?>">
+<link rel="stylesheet" href="<?php echo $this->Response->url("css/style.css"); ?>">
+<title><?php echo $title; ?></title>
+</html>
+<body>
+
+<div class="contents">
+	<?php $this->Response->loadView(); ?>
+</div>
+
+</body>
+</html>

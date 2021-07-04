@@ -1,0 +1,27 @@
+
+<style>
+.main-title{
+	position:fixed;
+	left:50%;
+	top:50%;
+	transform:translateX(-50%) translateY(-50%);
+	color:#ccc;
+	font-weight:100;
+	font-size:16px;
+	letter-spacing:1px;
+}
+.main-title h1{
+	color:#aaa;
+	font-weight:100;
+	font-size:60px;
+	letter-spacing:7px;
+}
+.main-title a{
+	font-size:16px;
+	margin-left:20px;
+}
+</style>
+<div class="main-title">
+	<h1>Mark II</h1>
+	<p>PHP Framework<a href="https://www.mk2-php.com/" target="_blank">support site</a></p>
+</div>

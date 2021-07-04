@@ -1,0 +1,18 @@
+
+<style>
+.error_area{
+	position:fixed;
+	left:50%;
+	top:50%;
+	transform:translateX(-50%) translateY(-50%);
+	color:#ccc;
+	font-weight:100;
+	font-size:13px;
+	letter-spacing:1px;
+}
+</style>
+
+<div class="error_area">
+	<h2>ERROR</h2>
+	<pre><?php echo $exception; ?></pre>
+</div>
