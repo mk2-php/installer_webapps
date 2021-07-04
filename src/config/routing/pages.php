@@ -17,7 +17,7 @@ return [
 		],
 		"/api"=>[
 			"/"=>"Api\Main@index",
-		].,
+		],
 		"/admin"=>[
 			"/"=>"Admin\Main@index",
 		],
