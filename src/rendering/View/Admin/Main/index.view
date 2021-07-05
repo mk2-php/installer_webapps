@@ -5,16 +5,16 @@
 	left:50%;
 	top:50%;
 	transform:translateX(-50%) translateY(-50%);
-	color:#222;
+	color:#ccc;
 	font-size:16px;
 	letter-spacing:1px;
 }
 .main-title hr{
 	border:none;
-	border-bottom:solid 1px #666;
+	border-bottom:solid 1px #ccc;
 }
 .main-title h1{
-	color:#777;
+	color:#ddd;
 	font-weight:100;
 	font-size:60px;
 	letter-spacing:8px;
@@ -26,8 +26,8 @@
 </style>
 <div class="main-title">
 	<h1>Mark II</h1>
-	<div style="margin-bottom:5px">Release Page Sample.</div>
-	<div><a href="<?php echo $this->Response->url("admin/"); ?>">- Administ page Sample</a></div>
+	<div style="margin-bottom:5px">Administ Page Sample.</div>
+	<div><a href="<?php echo $this->Response->homeUrl(); ?>">- Release Page Sample</a></div>
 	<div><a href="<?php echo $this->Response->url("api/"); ?>">- API Sample</a></div>
 	<hr>	
 	<div class="mb-3">PHP Framework<a href="https://www.mk2-php.com/" target="_blank" style="margin-left:20px;">support site</a></div>
